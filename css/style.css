@@ -1,0 +1,224 @@
+ /*FUENTES */
+
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* ESTILOS INDEX.HTML */
+
+/* HEADER */
+
+.header{
+    background-color: #187DDC;
+    position: sticky;
+    top: 0.1px;
+    position:fixed;
+    display: inline-block;
+    
+  
+
+}
+
+.cajaLogo {
+    display: inline-block;
+width: 39%;
+vertical-align: middle;
+text-align: center;
+}
+
+.cajaNav {
+    display: inline-block;
+width: 50%;
+vertical-align: middle;
+text-align: center;
+}
+
+ul {
+    display: inline-block
+
+
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    list-style: none;
+   
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+}
+
+nav ul li a:hover {
+color: white;
+text-decoration: underline;
+}
+
+nav {
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* MAIN */
+
+.cajaTitle {
+    text-align: center;
+    padding: 2rem;
+    background-color: white
+}
+
+.cajaTitle h1 {
+    font-size: 2rem;
+}
+
+.breadcumbSection {
+    color: #ffffff;
+    background-color: #0f5494;
+    text-align: center;
+    padding: 5%;
+}
+
+.breadcumbSection a{
+    color: #ffffff;
+}
+.cajaImagen {
+text-align: center;
+}
+
+.cajaImagen img {
+    padding: 0 1rem;
+}
+.cajaBtn {
+    text-align: center;
+    
+}
+
+.cajaBtn a {
+   font-size: 1.5rem;
+   font-weight: bold;
+
+}
+
+.cajaForm { 
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.cajaForm ::placeholder {
+    font-size: 1rem;
+
+
+}
+
+
+/* FOOTER */
+
+.footer {
+    background-color: #187DDC;
+    text-align: center;
+}
+
+.footer h3 {
+   padding-top: 0.5rem;
+}
+.listaRedes {
+    margin: 0.5rem 0 0 0;
+}
+
+.listaRedes .logoIg, .logoFb {
+width: 50px;
+
+}
+
+.logoFooter{
+    width: 20%;
+}
+
+.textoFooter{
+    color: white;
+    
+}
+
+.aFooter{
+    color: white;
+}
+
+/* ESTILOS HTML */
+
+.cajaParafo1 {
+    display: inline-block;
+    width: 50%;
+    padding: 2rem;
+    vertical-align: middle;
+}
+
+
+
+.cajaParafo1 h2{
+    font-size: 4rem;
+ }
+.cajaParafo1 p{
+   font-size: 1.5rem;
+}
+
+.cajaParrafoVideo iframe{
+    display: inline-block;
+    padding: 2rem;
+  
+}
+
+
+
+
+
+.cajaImg1 {
+    display: inline;
+    margin: 2rem;
+    vertical-align: middle;
+
+}
+
+.cajaImg1 img {
+  
+    margin: 2rem;
+
+}
+
+
+.cajaParafo2 {
+    display: inline-block;
+    width: 50%;
+    padding: 2rem;
+    vertical-align: middle;
+}
+.cajaParafo2 h2{
+    font-size: 4rem;
+ }
+.cajaParafo2 p{
+   font-size: 1.5rem;
+}
+
+
+.cajaImg2 {
+    display: inline;
+    margin: 2rem;
+    vertical-align: middle;
+
+}
+
+.cajaImg2 img {
+  
+    margin: 2rem;
+
+}
